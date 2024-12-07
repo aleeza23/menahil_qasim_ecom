@@ -103,13 +103,13 @@ const Header = () => {
                             </Link>
                         </li>
                         <li className={`max-lg:border-b max-lg:py-3 px-3`}>
-                            <a href='/' className={`hover:text-[#0a9cdd] text-[15px] font-medium block ${isActive('/')}`}>Home</a>
+                            <Link href='/' className={`hover:text-[#0a9cdd] text-[15px] font-medium block ${isActive('/')}`}>Home</Link>
                         </li>
                         <li className={`max-lg:border-b max-lg:py-3 px-3`}>
-                            <a href='/shop' className={`hover:text-[#0a9cdd] text-[15px] font-medium block ${isActive('/shop')}`}>Shop</a>
+                            <Link href='/shop' className={`hover:text-[#0a9cdd] text-[15px] font-medium block ${isActive('/shop')}`}>Shop</Link>
                         </li>
                         <li className={`max-lg:border-b max-lg:py-3 px-3`}>
-                            <a href='/events' className={`hover:text-[#0a9cdd] text-[15px] font-medium block ${isActive('/events')}`}>Events</a>
+                            <Link href='/events' className={`hover:text-[#0a9cdd] text-[15px] font-medium block ${isActive('/events')}`}>Events</Link>
                         </li>
                     </ul>
                 </div>
