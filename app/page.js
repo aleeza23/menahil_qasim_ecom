@@ -1,16 +1,20 @@
 import About from "@/components/About";
 import ImageGallery from "@/components/ImageGallery";
+import Image from "next/image";
+import Link from "next/link";
 
 
 export default function Home() {
   return (
     <>
       <div className="relative bg-gray-100 flex flex-col-reverse px-4 py-16 mx-auto lg:block lg:flex-col lg:py-16 xl:py-48 md:px-8 sm:max-w-xl md:max-w-full">
-        <div className="z-0 flex justify-center h-full -mx-4 overflow-hidden lg:pt-24 lg:pb-16 lg:pr-8 xl:pr-0 lg:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:left-0 lg:items-center">
-          <img
+        <div className="z-0 flex  justify-center h-full -mx-4 overflow-hidden lg:pt-24 lg:pb-16 lg:pr-8 xl:pr-0 lg:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:left-0 lg:items-center">
+          <Image
             src="https://kitwind.io/assets/kometa/laptop.png"
             className="object-cover object-right w-full h-auto lg:w-auto lg:h-full"
-            alt=""
+            alt="hero-image"
+            width={1000}
+            height={1000}
           />
         </div>
         <div className="relative flex justify-end max-w-xl mx-auto xl:pr-32 lg:max-w-screen-xl">
@@ -42,13 +46,13 @@ export default function Home() {
                 >
                   Explore more
                 </button>
-                <a
+                <Link
                   href="/"
                   aria-label=""
                   className="inline-flex items-center font-semibold transition-colors duration-200 text-[#4ad1f2] hover:text-deep-purple-800"
                 >
                   Learn more
-                </a>
+                </Link>
               </div>
             </form>
           </div>

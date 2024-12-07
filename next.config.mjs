@@ -7,6 +7,10 @@ const nextConfig = {
           hostname: 'readymadeui.com',
         },
         {
+            protocol: 'https',
+            hostname: 'kitwind.io',
+          },
+        {
           protocol: 'https',
           hostname: 'images.pexels.com',
         },
