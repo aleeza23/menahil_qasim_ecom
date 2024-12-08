@@ -100,7 +100,7 @@ const ProductsPage = () => {
                             <div className="text-center mt-4">
                                 <h3 className="text-sm font-bold text-gray-800">{product.name}</h3>
                                 <div className='flex mt-4 items-center justify-between'>
-                                    <h4 className="text-base text-blue-600 font-bold mt-2">Rs.{product.price}</h4>
+                                    <h4 className="text-base text-black font-thin mt-2">Rs.{product.price}</h4>
                                     {/* add to cart button */}
 
                                     <AddToCart product={product} />
